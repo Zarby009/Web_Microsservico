@@ -22,7 +22,7 @@ namespace ShoppingMaster.ProdutosAPI.Model
         [DataType(DataType.Currency)] // valor moeda
         [Display(Name = "Product Price")]
         public decimal Price { get; set; }
-
+        
         [Column("Description")]
         [StringLength(400, MinimumLength = 10, ErrorMessage = "Description must be between 10 and 200 characters.")]
         [DataType(DataType.MultilineText)] // Representa texto de várias linhas.

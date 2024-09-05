@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingMaster.Web.Models;
+using System.Diagnostics;
 
 namespace ShoppingMaster.Web.Controllers
 {

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using ShoppingMaster.ProdutosAPI.Data;
 
 
@@ -15,7 +16,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(
+    
+    );
 builder.Services.AddDbContext<AppDBContext>(
     options => options.UseMySQL(builder.Configuration.GetConnectionString("ConexaoPadrao"), optionsConfig => ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("ConexaoPadrao")))
 
@@ -24,6 +28,7 @@ builder.Services.AddDbContext<AppDBContext>(
 
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
