@@ -1,11 +1,11 @@
 
 # Código para fazer alterações no Banco
 ## Migration do Banco:
-```csharp
+```bash
 dotnet ef migrations add InicializandoBanco --project ShoppingMaster.ProdutosAPI --startup-project ShoppingMaster.ProdutosAPI
 ```
 ## Update do Banco de Dados
-```csharp
+```bash
 dotnet ef database update --project C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\ShoppingMaster.ProdutosAPI.csproj --startup-project C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\ShoppingMaster.ProdutosAPI.csproj
 ```
 # Adicionar DTO/VO à API
