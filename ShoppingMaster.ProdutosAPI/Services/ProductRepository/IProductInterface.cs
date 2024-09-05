@@ -2,9 +2,9 @@
 
 namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
 {
-    public interface IProductRepository
+    public interface IProductInterface
     {
-        Task<IEnumerable<ProductDTO>> FindAllAsync();
+        Task<List<ProductDTO>> FindAllAsync();
         Task<ProductDTO> FindByIdAsync(long id);
         Task<ProductDTO> Create(ProductDTO productDTO);
         Task<ProductDTO> Update(ProductDTO productDTO);

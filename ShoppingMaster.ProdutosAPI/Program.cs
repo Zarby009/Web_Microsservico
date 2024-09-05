@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using ShoppingMaster.ProdutosAPI.Config;
 using ShoppingMaster.ProdutosAPI.Data;
+using ShoppingMaster.ProdutosAPI.Services.ProductRepository;
 
 
 
@@ -16,7 +17,7 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(typeof(ConfigMapping).Assembly);
 
 // Add services to the container.
-
+builder.Services.AddScoped<IProductInterface, ProductService>();
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
