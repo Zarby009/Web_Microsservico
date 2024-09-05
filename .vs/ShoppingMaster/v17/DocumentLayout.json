@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.produtosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.produtosapi\\config\\configmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\config\\configmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.produtosapi\\services\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\services\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Program.cs",
+              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:26:02.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigMapping.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
+              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
+              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:22:10.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\IProductRepository.cs",

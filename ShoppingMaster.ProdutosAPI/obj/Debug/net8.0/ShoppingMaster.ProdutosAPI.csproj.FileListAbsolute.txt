@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.AssemblyInfo.cs
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\ShoppingMaster\ShoppingMaster.ProdutosAPI\obj\Debug\net8.0\ShoppingMaster.ProdutosAPI.sourcelink.json

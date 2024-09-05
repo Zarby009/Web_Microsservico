@@ -1,6 +1,9 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using ShoppingMaster.ProdutosAPI.Config;
 using ShoppingMaster.ProdutosAPI.Data;
+
 
 
 // Inicializar o Banco de dados no CLI: dotnet ef migrations add InicializandoBanco --project ShoppingMaster.ProdutosAPI --startup-project ShoppingMaster.ProdutosAPI
@@ -8,8 +11,9 @@ using ShoppingMaster.ProdutosAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
+IMapper mapper = ConfigMapping.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(typeof(ConfigMapping).Assembly);
 
 // Add services to the container.
 
