@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.produtosapi\\services\\productrepository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\services\\productrepository\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|solutionrelative:shoppingmaster.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|C:\\Users\\User\\source\\repos\\ShoppingMaster\\shoppingmaster.produtosapi\\config\\configmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\config\\configmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.web\\views\\product\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|solutionrelative:shoppingmaster.web\\views\\product\\productindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|C:\\Users\\User\\source\\repos\\ShoppingMaster\\shoppingmaster.produtosapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3465E7E-1830-43FE-991C-2F739B4D77A4}|ShoppingMaster.ProdutosAPI\\ShoppingMaster.ProdutosAPI.csproj|solutionrelative:shoppingmaster.produtosapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|solutionrelative:shoppingmaster.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|solutionrelative:shoppingmaster.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|c:\\users\\user\\source\\repos\\shoppingmaster\\shoppingmaster.web\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5CBD90-AA98-434D-9CDD-D3E686D278B7}|ShoppingMaster.Web\\ShoppingMaster.Web.csproj|solutionrelative:shoppingmaster.web\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\appsettings.json",
+              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T20:28:00.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingMaster.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\appsettings.json",
+              "RelativeToolTip": "ShoppingMaster.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T20:27:55.007Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -42,54 +76,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\appsettings.json",
-              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-09T16:02:22.204Z",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingMaster.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShoppingMaster.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T20:24:37.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Services\\Product\\ProductService.cs",
+              "RelativeDocumentMoniker": "ShoppingMaster.Web\\Services\\Product\\ProductService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Services\\Product\\ProductService.cs",
+              "RelativeToolTip": "ShoppingMaster.Web\\Services\\Product\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:49:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingMaster.Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingMaster.Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:33:49.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConfigMapping.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
-              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
-              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\Config\\ConfigMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:26:27.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\ProductService.cs",
-              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\ProductService.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\ProductService.cs",
-              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\Services\\ProductRepository\\ProductService.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAAAHQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T21:40:12.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ShoppingMaster.ProdutosAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.ProdutosAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ShoppingMaster.ProdutosAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T20:09:37.619Z",
+              "Title": "ProductIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Views\\Product\\ProductIndex.cshtml",
+              "RelativeDocumentMoniker": "ShoppingMaster.Web\\Views\\Product\\ProductIndex.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ShoppingMaster\\ShoppingMaster.Web\\Views\\Product\\ProductIndex.cshtml",
+              "RelativeToolTip": "ShoppingMaster.Web\\Views\\Product\\ProductIndex.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:23:47.031Z",
               "EditorCaption": ""
             }
           ]
