@@ -112,6 +112,8 @@ namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
                 await _context.SaveChangesAsync();
             }
 
+
+
             return productDTO;
         }
 

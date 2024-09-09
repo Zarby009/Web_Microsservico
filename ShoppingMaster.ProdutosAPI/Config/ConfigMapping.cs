@@ -6,26 +6,16 @@ namespace ShoppingMaster.ProdutosAPI.Config
 {
     public class ConfigMapping : Profile
     {
-       
         public static MapperConfiguration RegisterMaps()
         {
-
-
-            var mappingConfig =  new MapperConfiguration(
-                config => {
-                    config.CreateMap<ProductDTO, Product>();
-                    config.CreateMap<Product, ProductDTO>(); // Product = Entidade
-                    // Product = Pegar do banco
-                    // ProductDTO = Retornar para a response
-                
+            var mappingConfig = new MapperConfiguration(
+                config =>
+                {
+                    config.CreateMap<ProductDTO, Product>(); // Product = Entidade = Pegar do banco
+                    config.CreateMap<Product, ProductDTO>(); // ProductDTO = Retornar para a response
                 }
-                
                 );
-
-
-
             return mappingConfig;
-
         }
     }
 }

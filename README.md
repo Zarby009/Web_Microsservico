@@ -116,19 +116,83 @@ public class ProductDTO
     public string Url { get; set; }
 }
 ````
-#### Colocamos AddSingleton e AddAutoMapper na `Program.cs`
-````csharp
-IMapper mapper = ConfigMapping.RegisterMaps().CreateMapper();
+# Adicionar AutoMapper à API
+
+## Por que usar AutoMapper?
+
+Ao trabalhar com APIs que utilizam DTOs, é comum ter que mapear dados entre as entidades do banco de dados e os DTOs manualmente. O **AutoMapper** simplifica esse processo, automatizando o mapeamento entre objetos de diferentes tipos. Com isso, reduzimos a repetição de código, aumentamos a consistência e facilitamos a manutenção da aplicação.
+
+### Vantagens de Usar AutoMapper
+
+- **Redução de Código Manual**: Automatiza a conversão entre entidades e DTOs.
+- **Facilidade de Manutenção**: Centraliza as regras de mapeamento, facilitando futuras alterações no código.
+- **Consistência**: Garante que todos os mapeamentos sejam feitos de forma consistente em toda a aplicação.
+
+### Configuração do AutoMapper
+
+Para configurar o AutoMapper no projeto, adicione o seguinte código na classe `Program.cs` para registrar o AutoMapper como um serviço:
+
+```csharp
+IMapper mapper = ConfigMapping.RegisterMaps().CreateMapper(); //classe e método que iremos criar
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(typeof(ConfigMapping).Assembly);
-````
+```
+
+A classe `ConfigMapping` é onde você define como as entidades e os DTOs serão mapeados:
+```csharp
+public class ConfigMapping : Profile
+{
+    public static MapperConfiguration RegisterMaps()
+    {
+        var mappingConfig = new MapperConfiguration(
+            config =>
+            {
+                config.CreateMap<ProductDTO, Product>(); // Product = Entidade = Pegar do banco
+                config.CreateMap<Product, ProductDTO>(); // ProductDTO = Retornar para a response
+            }
+            );
+        return mappingConfig;
+    }
+}
+```
+
+No serviço ProductService, utilizamos o AutoMapper para mapear as entidades Product para os DTOs ProductDTO e vice-versa. Isso reduz o código necessário para a conversão de objetos e torna o serviço mais limpo.
+
+## Exemplo de Uso no Serviço
+No serviço `ProductService`, utilizamos o AutoMapper para mapear as entidades Product para os DTOs ProductDTO e vice-versa. Isso reduz o código necessário para a conversão de objetos e torna o serviço mais limpo.
 
 
+```csharp
 
+    private readonly AppDBContext _context;
+    private readonly IMapper _mapper;
 
+    public ProductService(AppDBContext context, IMapper mapper)
+    {
+        _context = context;
+        _mapper = mapper;
+    }
+```
 
+## Mapeando Entidade para DTO
+Ao buscar um produto no banco de dados, utilizamos o AutoMapper para converter a entidade Product em um ProductDTO, que será retornado pela API. Dessa forma, garantimos que apenas os dados relevantes sejam enviados para o cliente.
+| De          | Para        |
+|-------------|-------------|
+| `Product`| `ProductDTO`   |
 
+```csharp
+var prod = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+// Mapeamos a entidade Product para ProductDTO
+var productDTO = _mapper.Map<ProductDTO>(prod);
+```
+## Mapeando DTO para Entidade
+Quando recebemos um ProductDTO válido em uma requisição, usamos o AutoMapper para converter esse DTO de volta para a entidade Product, permitindo que o objeto seja salvo no banco de dados. Isso facilita o processo de criação e atualização de produtos.
+| De          | Para        |
+|-------------|-------------|
+| `ProductDTO`| `Product`   |
 
-
-
-
+```csharp
+Exemplo: recebemos um (ProductDTO productDTO) válido;
+var product = _mapper.Map<Product>(productDTO);
+```
+Essas melhorias tornam o processo de mapeamento mais claro, destacando a função do AutoMapper tanto na conversão da entidade para o DTO quanto do DTO para a entidade, além de reforçar o papel de cada transformação no fluxo da aplicação.
