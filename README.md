@@ -196,3 +196,94 @@ Exemplo: recebemos um (ProductDTO productDTO) válido;
 var product = _mapper.Map<Product>(productDTO);
 ```
 Essas melhorias tornam o processo de mapeamento mais claro, destacando a função do AutoMapper tanto na conversão da entidade para o DTO quanto do DTO para a entidade, além de reforçar o papel de cada transformação no fluxo da aplicação.
+
+# Fazendo o FrontEnd
+
+## Inicio
+
+primeiramente, atualizamos o bootstrap e colocamos o fontawesome no nosso codigo:
+bootstrap: atualizado no Views/Shared/_Layout link no Head, script bundle no body nas últimas linhas.
+
+fontawesome: script no Head
+
+### Interfaces e Serviços
+
+
+- **IProductInterface**: Onde fizemos os contratos para nossa service.
+- **ProductInterface**: Onde assinamos os contratos e implementamos os métodos.
+
+### No appsettings.json: 
+adicionamos ServiceUrls:ProductAPI 
+
+|   Nome   | Para quê?       |     Valor     |
+|-------------|-------------|-------------------|
+| `"ProductAPI"`| Url e a Porta da nossa api   | "https://localhost:7298" |
+
+```json
+{
+  [...],
+  "ServiceUrls": {
+    "ProductAPI": "https://localhost:7298"
+  }
+}
+```
+### No `Program.cs` mapeamos o AddHttpClient:
+pegamos esse valor para colocar no HttpClient e colocar IProductInterface na Injecao de dependencia para ProductService junto com o valor BaseAddress com o nosso {ProductApi}
+
+```csharp
+var serviceUrls = builder.Configuration.GetSection("ServiceUrls");
+var productApiUrl = serviceUrls.GetValue<string>("ProductAPI");
+builder.Services.AddHttpClient<IProductInterface, ProductService>(c =>
+ c.BaseAddress = new Uri(productApiUrl)
+
+) ;
+```
+# Para consumir API iremos usar esse seguinte código:
+```csharp
+var response = await _httpClient.GetAsync("[caminho da api]]");
+var jsonString = await response.Content.ReadAsStringAsync();
+var products = JsonSerializer.Deserialize<[modo de retorno da classe]>(jsonString, new JsonSerializerOptions
+{
+    PropertyNameCaseInsensitive = true
+});
+
+```
+
+# Criaremos uma Controller = ProductController
+Injetando nossa ProductInterface e colocando no Construtor
+
+Fazendo assim, a chamada do método que queremos e passando para a View.
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using ShoppingMaster.Web.Models;
+using ShoppingMaster.Web.Services.Product;
+
+namespace ShoppingMaster.Web.Controllers
+{
+    public class ProductController : Controller
+    {
+        private readonly IProductInterface _productInterface;
+        public ProductController(IProductInterface productInterface)
+        {
+            _productInterface = productInterface ?? throw new ArgumentNullException(nameof(productInterface));
+        }
+
+
+        public async Task<IActionResult> ProductIndex()
+        {
+            List<ProductModel> products = await _productInterface.FindAllAsync();
+            return View(products);
+        }
+    }
+}
+
+```
+
+# Após isso, criaremos nossa View Product
+Iremos fazer o 
+```csharp
+@model List<ProductModel>
+
+@item para acessar
+
+```
