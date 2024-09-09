@@ -27,7 +27,7 @@ namespace ShoppingMaster.ProdutosAPI.Controllers
 
         }
         [HttpPost]
-        public async Task<ActionResult<ProductDTO>> Create(ProductDTO prodDTO)
+        public async Task<ActionResult<ProductDTO>> Create([FromBody] ProductDTO prodDTO)
         {
             if (!ModelState.IsValid) { return BadRequest(); };
 
@@ -57,7 +57,7 @@ namespace ShoppingMaster.ProdutosAPI.Controllers
 
         }
         [HttpPut("Atualizar")]
-        public async Task<ActionResult<ProductDTO>> Update(ProductDTO productDTO)
+        public async Task<ActionResult<ProductDTO>> Update([FromBody] ProductDTO productDTO)
         {
             if(productDTO == null) return BadRequest("Atualizacoes nao feitas");
             var prod = await _product.Update(productDTO);

@@ -56,7 +56,7 @@ namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
 
         public async Task<ProductDTO> FindByIdAsync(long id)
         {
-            var prod = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            Product prod = await _context.Products.FirstOrDefaultAsync(p => p.Id == id) ?? new Product();
             return _mapper.Map<ProductDTO>(prod);
 
 
@@ -70,7 +70,7 @@ namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
             }
 
             // Recupera o produto existente com base no ID
-            var prod = await _context.Products.FindAsync(productDTO.Id);
+            Product prod = await _context.Products.FindAsync(productDTO.Id);
 
             // Se o produto não for encontrado, lança uma exceção
             if (prod == null)
@@ -78,7 +78,7 @@ namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
                 throw new KeyNotFoundException("Produto não encontrado.");
             }
 
-            // Verifica se há alterações e aplica apenas as mudanças necessárias
+            // Verifica e aplica apenas as mudanças necessárias
             var isUpdated = false;
 
             if (prod.Description != productDTO.Description)
@@ -112,10 +112,9 @@ namespace ShoppingMaster.ProdutosAPI.Services.ProductRepository
                 await _context.SaveChangesAsync();
             }
 
-
-
             return productDTO;
         }
+
 
     }
 }
